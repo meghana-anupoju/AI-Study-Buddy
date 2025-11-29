@@ -5,7 +5,7 @@ It helps students learn programming and computer science concepts through clear 
 
 This project demonstrates how multiple specialized agents can collaborate to create a personalized, interactive learning experience.
 
- 1. Problem
+🧩 1. Problem
 
 Students learning computer science often face challenges such as:
 
@@ -23,7 +23,7 @@ Learning becomes fragmented and inefficient, causing confusion and slow progress
 
 AI Study Buddy aims to solve these challenges using a structured, multi-agent approach.
 
- 2. Solution
+🎯 2. Solution
 
 AI Study Buddy provides an end-to-end learning experience by combining four coordinated agents:
 
@@ -59,7 +59,7 @@ The system uses InMemorySessionService to remember conversation progress within 
 This creates a complete learning cycle:
 Explain → Quiz → Evaluate → Guide → Save Notes
 
- 3. Architecture
+🏗 3. Architecture
 System Diagram
 User
   ↓
@@ -130,7 +130,7 @@ Configure memory
 
 Start interacting with the tutor
 
- 5. Usage
+🧪 5. Usage
 Start a conversation
 await chat("Explain Big O notation with an example.")
 
@@ -146,12 +146,13 @@ await chat("What should I study next?")
 Review saved notes
 study_notes
 
-6. Diagrams and Images
+🖼 6. Diagrams and Images
 
+You may include:
 
 Architecture diagram
 
-                         ┌─────────────────────────────┐
+      ┌─────────────────────────────┐
                          │         User Input          │
                          └──────────────┬──────────────┘
                                         │
@@ -188,8 +189,7 @@ Architecture diagram
             │ - Stores conversation events       │
             └────────────────────────────────────┘
 
-
- 7. Key Features Highlight
+🌟 7. Key Features Highlight
 
 Multi-agent orchestration using Google ADK
 
@@ -205,7 +205,7 @@ Lightweight and fast using Gemini flash models
 
 Runs entirely in Colab (zero deployment needed)
 
- 8. Future Enhancements
+📌 8. Future Enhancements
 
 Deploy using Vertex AI Agent Engine
 
@@ -219,12 +219,12 @@ Integrate syllabus-based RAG
 
 Convert into a Telegram/WhatsApp tutor
 
- 9. License
+📄 9. License
 
 This project can be shared and modified freely under the MIT License.
 
 
- 10. Contributions
+🤝 10. Contributions
 
 Open to suggestions, improvements, or extensions!
 Feel free to open a pull request or create an issue.
